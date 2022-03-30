@@ -2,7 +2,7 @@
 VClinic
 ******************
 
-VClinic is a Flexible and Extensible Framework for Fine-grained Value Profiler.
+VClinic is a Portable and Efficient Profiling Infrastructure for Fine-grained Value Profilers.
 
 .. toctree::
    :maxdepth: 2
