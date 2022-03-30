@@ -1,0 +1,56 @@
+[ZEROSPY INFO] Sampling Disabled
+  
+--------------- Dumping INTEGER Redundancy Info ----------------
+
+*************** Dump Data from Thread 0 ****************
+
+ Total redundant bytes = 46.832358 %
+
+ INFO : Total redundant bytes = 46.832358 % (2693549 / 5751470)
+
+
+======= (14.850296) % of total Redundant, with local redundant 100.000000 % (400000 Bytes / 400000 Bytes) ======
+
+
+======= with All Zero Redundant 100.000000 % (100000 / 100000) ======
+
+======= Redundant byte map : [0]  [AccessLen=4] =======
+
+---------------------Redundant load with---------------------------
+#0   0x00007fa056474170 "mov    eax, dword ptr [rdx+rax]" in foo at [/home/lkl/samples/sample.cc:7]
+#1   0x00007fa0564741a3 "call   0x00007fa056474129" in main at [/home/lkl/samples/sample.cc:11]
+#2   0x00007fa0572f50b1 "call   rax" in __libc_start_main at [/home/lkl/samples/sample.cc:0]
+#3   0x00007fa056474068 "call   <rel> qword ptr [0x00007fa056476fe0]" in _start at [:0]
+#4   0xffffffffffffffff "<NULL>" in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 "<NULL>" in PROCESS[2057914]_ROOT_CTXT at [<NULL>:0]
+======= (14.850296) % of total Redundant, with local redundant 100.000000 % (400000 Bytes / 400000 Bytes) ======
+
+
+======= with All Zero Redundant 100.000000 % (100000 / 100000) ======
+
+======= Redundant byte map : [0]  [AccessLen=4] =======
+
+---------------------Redundant load with---------------------------
+#0   0x00007fa0564741cc "mov    edx, dword ptr [rdx+rax]" in main at [/home/lkl/samples/sample.cc:13]
+#1   0x00007fa0572f50b1 "call   rax" in __libc_start_main at [/home/lkl/samples/sample.cc:0]
+#2   0x00007fa056474068 "call   <rel> qword ptr [0x00007fa056476fe0]" in _start at [:0]
+#3   0xffffffffffffffff "<NULL>" in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#4   0x0000000000000000 "<NULL>" in PROCESS[2057914]_ROOT_CTXT at [<NULL>:0]
+
+
+======= (6.155188) % of total Redundant, with local redundant 41.448250 % (165793 Bytes / 400000 Bytes) ======
+
+
+======= with All Zero Redundant 0.001000 % (1 / 100000) ======
+
+======= Redundant byte map : [0]  [AccessLen=4] =======
+
+---------------------Redundant load with---------------------------
+#0   0x00007fa05647418e "add    dword ptr [rbp-0x04], 0x01" in foo at [/home/lkl/samples/sample.cc:6]
+#1   0x00007fa0564741a3 "call   0x00007fa056474129" in main at [/home/lkl/samples/sample.cc:11]
+#2   0x00007fa0572f50b1 "call   rax" in __libc_start_main at [/home/lkl/samples/sample.cc:0]
+#3   0x00007fa056474068 "call   <rel> qword ptr [0x00007fa056476fe0]" in _start at [:0]
+#4   0xffffffffffffffff "<NULL>" in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#5   0x0000000000000000 "<NULL>" in PROCESS[2057914]_ROOT_CTXT at [<NULL>:0]
+
+...
